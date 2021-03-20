@@ -33,4 +33,12 @@ const movieDB = {
 const ads = document.querySelector(".promo__adv");
 ads.remove();
 
+const viewedFilm = document.querySelector('.promo__interactive-list');
+viewedFilm.innerHTML - "";
+movieDB.movies.sort();
 
+movieDB.movies.forEach(function(film, i){
+    vievedfilms.innerHTML +- '<li class-"promo__interactive-item">${++i}.  ${film}
+    <div class="delete"></div>
+    </li>;      
+});
